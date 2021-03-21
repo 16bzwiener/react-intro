@@ -1,9 +1,10 @@
 {
-  "name": "my-app",
+  "name": "chart-practice",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "chart.js": "^2.9.4",
+    "chartjs-plugin-datalabels": "^0.7.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",

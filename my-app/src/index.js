@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import Chart from "chart.js";
 import './index.css';
 
 
@@ -10,6 +11,59 @@ function Square(props) {
         </button>
     )
 }
+
+// class TIRChart extends React.Component {
+
+//     constructor(props) {
+//         super(props);
+//     }
+
+//     chartRef = React.createRef();
+
+//     componentDidMount() {
+//         this.buildChart();
+//     }
+
+//     componentDidUpdate() {
+//         this.buildChart();
+//     }
+
+//     buildChart = () => {
+//         const myChartRef = this.chartRef.current.getContext("2d");
+    
+//         if (typeof stackedBar !== "undefined") stackedBar.destroy();
+    
+    
+//         stackedBar = new Chart(myChartRef, {
+//             type: 'bar',
+//             data: [[5, 6], [-3, -6]],
+//             options: {
+//                 scales: {
+//                     xAxes: [{
+//                         stacked: true
+//                     }],
+//                     yAxes: [{
+//                         stacked: true
+//                     }]
+//                 }
+//             }
+//         });
+
+    
+//       }
+
+
+//     render() {
+//         return (
+//             <div className="">
+//                 <canvas
+//                     id="myChart"
+//                     ref={this.chartRef}
+//                 />
+//             </div>
+//         )
+//     }
+// }
 
 class Board extends React.Component {
     renderSquare(i) {
